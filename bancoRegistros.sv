@@ -4,7 +4,7 @@ module bancoRegistros(input clk, WE3,
 							output logic [31:0] RD1,RD2);
 							
 							
-logic [15:0] regFile [0:31];
+logic [31:0] regFile [0:15];
 
 assign RD1 =  regFile[A1];
 assign RD2 =  regFile[A2];
@@ -18,4 +18,4 @@ begin
 	
 end
 		
-endmodule 
+endmodule  

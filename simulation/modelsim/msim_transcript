@@ -10,45 +10,45 @@
 # Copying D:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/bancoRegistros.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:06:47 on Jul 16,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/bancoRegistros.sv 
-# -- Compiling module bancoRegistros
-# 
-# Top level modules:
-# 	bancoRegistros
-# End time: 12:06:47 on Jul 16,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:06:48 on Jul 16,2020
+# Start time: 15:44:47 on Jul 20,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv 
 # -- Compiling module testbench
-# ** Warning: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
-# ** Warning: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
 # 
 # Top level modules:
 # 	testbench
-# End time: 12:06:48 on Jul 16,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 2
+# End time: 15:44:47 on Jul 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux_.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:44:47 on Jul 20,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux_.sv 
+# -- Compiling module mux_
+# 
+# Top level modules:
+# 	mux_
+# End time: 15:44:47 on Jul 20,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # 
 vsim work.testbench
 # vsim work.testbench 
-# Start time: 12:07:15 on Jul 16,2020
+# Start time: 15:44:52 on Jul 20,2020
 # Loading sv_std.std
 # Loading work.testbench
-# Loading work.bancoRegistros
+# Loading work.mux_
+# ** Warning: (vsim-3015) D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv(98): [PCDPC] - Port size (4) does not match connection size (5) for port 'out'. The port definition is at: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux_.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/mux1 File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux_.sv
+add wave -position end  sim:/testbench/selectCase
 add wave -position end  sim:/testbench/clk
-add wave -position end  sim:/testbench/WE3
-add wave -position end  sim:/testbench/A1
-add wave -position end  sim:/testbench/A2
-add wave -position end  sim:/testbench/A3
-add wave -position end  sim:/testbench/WD3
-add wave -position end  sim:/testbench/R15
-add wave -position end  sim:/testbench/RD1
-add wave -position end  sim:/testbench/RD2
-
-run 100
-# End time: 12:08:44 on Jul 16,2020, Elapsed time: 0:01:29
-# Errors: 0, Warnings: 0
+add wave -position end  sim:/testbench/value0
+add wave -position end  sim:/testbench/value1
+add wave -position end  sim:/testbench/out
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: leahycarlos21  Hostname: DESKTOP-RSVVR64  ProcessID: 8092
+#           Attempting to use alternate WLF file "./wlftwh4mji".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftwh4mji
+run
+# End time: 15:46:37 on Jul 20,2020, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 3

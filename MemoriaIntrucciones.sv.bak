@@ -1,0 +1,15 @@
+module MemoriaIntrucciones #(parameter N=256)(input logic [31:0] A,
+									output logic [31:0] RD);
+									
+logic [31:0] mem [0:N-1];
+
+parameter Data = 'ROM.txt';
+initial begin
+	$readmemh(Data,mem);
+	
+end
+
+assign RD = mem[A];
+								
+									
+endmodule 

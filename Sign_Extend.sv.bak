@@ -1,0 +1,13 @@
+module Sign_Extend(input logic [1:0] ImmSrc,
+						input logic [23:0] A,
+							output logic [31:0] B);
+							
+always_comb
+	`case(ImmSrc)
+		2'b00: B = {24'b0,A[7:0]};
+		2'b01: B = {20'b0, A[11:0]};
+		2'b10: B = {{6{A[23]}},A[23:0],2'b00};
+		default: B = 32'b0;
+	endcase
+
+endmodule s
