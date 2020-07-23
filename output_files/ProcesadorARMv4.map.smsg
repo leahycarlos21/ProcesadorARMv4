@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at bancoRegistros.sv(13): always construct contains both blocking and non-blocking assignments File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/bancoRegistros.sv Line: 13
+Warning (10268): Verilog HDL information at programCounter.sv(4): always construct contains both blocking and non-blocking assignments File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/programCounter.sv Line: 4

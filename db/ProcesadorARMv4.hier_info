@@ -1,19 +1,70 @@
 |testbench
 
 
-|testbench|mux_:mux1
-selectCase => Decoder0.IN0
-value0[0] => out.DATAA
-value0[1] => out.DATAA
-value0[2] => out.DATAA
-value0[3] => out.DATAA
-value1[0] => out.DATAB
-value1[1] => out.DATAB
-value1[2] => out.DATAB
-value1[3] => out.DATAB
-out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
-out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
-out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
-out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+|testbench|programCounter:pc
+clk => addressOut[0]~reg0.CLK
+clk => addressOut[1]~reg0.CLK
+clk => addressOut[2]~reg0.CLK
+clk => addressOut[3]~reg0.CLK
+clk => addressOut[4]~reg0.CLK
+clk => addressOut[5]~reg0.CLK
+clk => addressOut[6]~reg0.CLK
+clk => addressOut[7]~reg0.CLK
+rst => addressOut.OUTPUTSELECT
+rst => addressOut.OUTPUTSELECT
+rst => addressOut.OUTPUTSELECT
+rst => addressOut.OUTPUTSELECT
+rst => addressOut.OUTPUTSELECT
+rst => addressOut.OUTPUTSELECT
+rst => addressOut.OUTPUTSELECT
+rst => addressOut.OUTPUTSELECT
+addressIn[0] => addressOut.DATAA
+addressIn[0] => Equal0.IN6
+addressIn[1] => addressOut.DATAA
+addressIn[1] => Equal0.IN5
+addressIn[2] => addressOut.DATAA
+addressIn[2] => Equal0.IN7
+addressIn[3] => addressOut.DATAA
+addressIn[3] => Equal0.IN4
+addressIn[4] => addressOut.DATAA
+addressIn[4] => Equal0.IN3
+addressIn[5] => addressOut.DATAA
+addressIn[5] => Equal0.IN2
+addressIn[6] => addressOut.DATAA
+addressIn[6] => Equal0.IN1
+addressIn[7] => addressOut.DATAA
+addressIn[7] => Equal0.IN0
+addressIn[8] => ~NO_FANOUT~
+addressIn[9] => ~NO_FANOUT~
+addressIn[10] => ~NO_FANOUT~
+addressIn[11] => ~NO_FANOUT~
+addressIn[12] => ~NO_FANOUT~
+addressIn[13] => ~NO_FANOUT~
+addressIn[14] => ~NO_FANOUT~
+addressIn[15] => ~NO_FANOUT~
+addressIn[16] => ~NO_FANOUT~
+addressIn[17] => ~NO_FANOUT~
+addressIn[18] => ~NO_FANOUT~
+addressIn[19] => ~NO_FANOUT~
+addressIn[20] => ~NO_FANOUT~
+addressIn[21] => ~NO_FANOUT~
+addressIn[22] => ~NO_FANOUT~
+addressIn[23] => ~NO_FANOUT~
+addressIn[24] => ~NO_FANOUT~
+addressIn[25] => ~NO_FANOUT~
+addressIn[26] => ~NO_FANOUT~
+addressIn[27] => ~NO_FANOUT~
+addressIn[28] => ~NO_FANOUT~
+addressIn[29] => ~NO_FANOUT~
+addressIn[30] => ~NO_FANOUT~
+addressIn[31] => ~NO_FANOUT~
+addressOut[0] <= addressOut[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addressOut[1] <= addressOut[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addressOut[2] <= addressOut[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addressOut[3] <= addressOut[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addressOut[4] <= addressOut[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addressOut[5] <= addressOut[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addressOut[6] <= addressOut[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+addressOut[7] <= addressOut[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
