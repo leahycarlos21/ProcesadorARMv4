@@ -3,6 +3,7 @@ module unidadControl(input  logic [3:0] Cond,
 							input logic [5:0] Funct,
 							input logic [3:0] Rd,
 							input logic [3:0] Flags,
+							input logic [1:0] sh,
 							output logic PCSrc, MemToReg,MemWrite,
 							ALUSrc,RegWrite,
 							output logic [3:0] ALUControl,
@@ -26,7 +27,24 @@ logic Branch, ALUOp;
 		
 assign{Branch, MemToReg,MemWrite,ALUSrc, ImmSrc,RegWrite,RegSrc,ALUOp} = generalOut;
 	
+always_comb
+if(ALUOp) begin
+		case(Funct[4:1])
+			4'b0000: ALUControl = 4'b0010;//AND
+			4'b0001: ALUControl = 4'b0100;//XOR
+			4'b0010: ALUControl = 4'b0001;//SUB
+			4'b0100: ALUControl = 4'b0000;//ADD
+			4'b1100: ALUControl = 4'b0011;//OR
+			4'b1111: ALUControl = 4'b0101;//NOT
+			4'b1101: if(sh==2'b11)
+						ALUControl = 4'b1001;//RotCirc
+			4'b1010: if(Funct[0])
+							ALUControl = 4'b0001;//Comparacion
+			default: ALUControl = 4'bx;
 
+				
+		endcase
 
+			
 
 endmodule 
