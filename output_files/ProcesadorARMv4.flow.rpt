@@ -1,5 +1,5 @@
 Flow report for ProcesadorARMv4
-Thu Jul 23 10:43:01 2020
+Thu Jul 30 11:48:13 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -38,24 +38,29 @@ https://fpgasoftware.intel.com/eula.
 
 
 
-+---------------------------------------------------------------------------+
-; Flow Summary                                                              ;
-+-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Thu Jul 23 10:43:01 2020       ;
-; Quartus Prime Version       ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
-; Revision Name               ; ProcesadorARMv4                             ;
-; Top-level Entity Name       ; testbench                                   ;
-; Family                      ; Cyclone V                                   ;
-; Device                      ; 5CSEMA5F31C6                                ;
-; Timing Models               ; Final                                       ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------+
+; Flow Summary                                                                  ;
++---------------------------------+---------------------------------------------+
+; Flow Status                     ; Successful - Thu Jul 30 11:48:13 2020       ;
+; Quartus Prime Version           ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
+; Revision Name                   ; ProcesadorARMv4                             ;
+; Top-level Entity Name           ; unidadControl                               ;
+; Family                          ; Cyclone V                                   ;
+; Device                          ; 5CSEMA5F31C6                                ;
+; Timing Models                   ; Final                                       ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 41                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +-----------------------------------------+
@@ -63,58 +68,58 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/23/2020 10:42:52 ;
+; Start date & time ; 07/30/2020 11:48:02 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ProcesadorARMv4     ;
 +-------------------+---------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                              ;
-+-------------------------------------+----------------------------------------+-----------------+-------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value   ; Entity Name ; Section Id     ;
-+-------------------------------------+----------------------------------------+-----------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 238368709042294.159552257215288        ; --              ; --          ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --              ; --          ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>          ; --          ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --              ; --          ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --              ; --          ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --              ; --          ; --             ;
-; MISC_FILE                           ; MEM_INST_bb.v                          ; --              ; --          ; --             ;
-; MISC_FILE                           ; MEM_DATA_bb.v                          ; --              ; --          ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --              ; testbench   ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --              ; testbench   ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --              ; testbench   ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --              ; --          ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --              ; --          ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --              ; --          ; --             ;
-; TOP_LEVEL_ENTITY                    ; testbench                              ; ProcesadorARMv4 ; --          ; --             ;
-+-------------------------------------+----------------------------------------+-----------------+-------------+----------------+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                ;
++-------------------------------------+----------------------------------------+-----------------+---------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value   ; Entity Name   ; Section Id     ;
++-------------------------------------+----------------------------------------+-----------------+---------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 238368709042294.159613128218632        ; --              ; --            ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --              ; --            ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>          ; --            ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --              ; --            ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --              ; --            ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --              ; --            ; --             ;
+; MISC_FILE                           ; MEM_INST_bb.v                          ; --              ; --            ; --             ;
+; MISC_FILE                           ; MEM_DATA_bb.v                          ; --              ; --            ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --              ; unidadControl ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --              ; unidadControl ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --              ; unidadControl ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --              ; --            ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --              ; --            ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --              ; --            ; --             ;
+; TOP_LEVEL_ENTITY                    ; unidadControl                          ; ProcesadorARMv4 ; --            ; --             ;
++-------------------------------------+----------------------------------------+-----------------+---------------+----------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                          ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:09     ; 1.0                     ; 4784 MB             ; 00:00:26                           ;
-; Total                  ; 00:00:09     ; --                      ; --                  ; 00:00:26                           ;
-+------------------------+--------------+-------------------------+---------------------+------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4853 MB             ; 00:00:27                           ;
+; Total                ; 00:00:11     ; --                      ; --                  ; 00:00:27                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+--------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                      ;
-+------------------------+------------------+------------+------------+----------------+
-; Module Name            ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+------------------------+------------------+------------+------------+----------------+
-; Analysis & Elaboration ; DESKTOP-RSVVR64  ; Windows 10 ; 10.0       ; x86_64         ;
-+------------------------+------------------+------------+------------+----------------+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-RSVVR64  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
-quartus_map --read_settings_files=on --write_settings_files=off ProcesadorARMv4 -c ProcesadorARMv4 --analysis_and_elaboration
+quartus_map --read_settings_files=on --write_settings_files=off ProcesadorARMv4 -c ProcesadorARMv4
 
 
 

@@ -4,75 +4,119 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "addressOut[0]",
+					"name" : "RegSrc[0]",
 					"strict" : false
 				},
 				{
-					"name" : "addressOut[1]",
+					"name" : "RegSrc[1]",
 					"strict" : false
 				},
 				{
-					"name" : "addressOut[2]",
+					"name" : "RegWrite",
 					"strict" : false
 				},
 				{
-					"name" : "addressOut[3]",
+					"name" : "ImmSrc[0]",
 					"strict" : false
 				},
 				{
-					"name" : "addressOut[4]",
+					"name" : "ImmSrc[1]",
 					"strict" : false
 				},
 				{
-					"name" : "addressOut[5]",
+					"name" : "ALUSrc",
 					"strict" : false
 				},
 				{
-					"name" : "addressOut[6]",
+					"name" : "ALUControl[0]",
 					"strict" : false
 				},
 				{
-					"name" : "addressOut[7]",
+					"name" : "ALUControl[1]",
 					"strict" : false
 				},
 				{
-					"name" : "clk",
+					"name" : "ALUControl[2]",
 					"strict" : false
 				},
 				{
-					"name" : "addressIn[0]",
+					"name" : "ALUControl[3]",
 					"strict" : false
 				},
 				{
-					"name" : "rst",
+					"name" : "MemWrite",
 					"strict" : false
 				},
 				{
-					"name" : "addressIn[1]",
+					"name" : "MemToReg",
 					"strict" : false
 				},
 				{
-					"name" : "addressIn[2]",
+					"name" : "PCSrc",
 					"strict" : false
 				},
 				{
-					"name" : "addressIn[3]",
+					"name" : "Instr[27]",
 					"strict" : false
 				},
 				{
-					"name" : "addressIn[4]",
+					"name" : "Instr[20]",
 					"strict" : false
 				},
 				{
-					"name" : "addressIn[5]",
+					"name" : "Instr[26]",
 					"strict" : false
 				},
 				{
-					"name" : "addressIn[6]",
+					"name" : "Instr[28]",
 					"strict" : false
 				},
 				{
-					"name" : "addressIn[7]",
+					"name" : "Instr[29]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[30]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[31]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[25]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[22]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[24]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[21]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[23]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[12]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[13]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[14]",
+					"strict" : false
+				},
+				{
+					"name" : "Instr[15]",
 					"strict" : false
 				}
 			]

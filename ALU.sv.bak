@@ -24,7 +24,7 @@ flag_Negativo#(size) flagN(resultOut, flagNegativoOut);
 flag_Overflow#(size) flagO(a,b,resultOut,selectCase,flagOverflowOut);
 //Flag Carry es el coutResult ya que es el acarreo de la suma
 
-assign flagALUAux = {flagNegativoOut,flagZeroOut,coutResult,flagOverflowOut};
+assign flagALUAux = {flagOverflowOut,coutResult,flagNegativoOut,flagZeroOut};
 
 flagMux isFlagMux(selectCase,flagALUAux,outFlag);
 

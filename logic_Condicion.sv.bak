@@ -1,0 +1,16 @@
+module  logic_Condicion(input logic clk, rst,
+									input logic [3:0] Cond,
+									input logic [3:0] ALU_Flags,
+									input logic FlagW,
+									input logic PCS, RegW,MemWrite,
+									output PCSrc, RegWrite, MemWrite);
+									
+logic [1:0] FlagWrite;
+logic [3:0] Flags;
+logic Condicion;
+
+
+
+
+
+endmodule 

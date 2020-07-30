@@ -132,9 +132,31 @@ module testbench();
 //end
 
 
-
-always
-	#50 clk = !clk;
+//logic clk;
+//logic [3:0] Cond;
+//logic [1:0] Op;
+//logic [5:0] Funct;
+//logic [3:0] Rd;
+//logic [3:0] Flags;
+//logic [1:0] sh,
+//logic PCSrc, MemToReg,MemWrite,ALUSrc,RegWrite;
+//logic [3:0] ALUControl;
+//logic [1:0] ImmSrc,RegSrc;
+//
+//
+//unidadControl  unidad_Control(Cond,Op,Funct, Rd,Flags, sh,
+//							 PCSrc, MemToReg,MemWrite,
+//							ALUSrc,RegWrite,
+//							ALUControl,
+//							ImmSrc,RegSrc);
+//initial begin
+//
+//
+//end
+//
+//
+//always
+//	#50 clk = !clk;
 
 endmodule
 

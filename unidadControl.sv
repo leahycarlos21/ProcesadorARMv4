@@ -1,50 +1,22 @@
-module unidadControl(input  logic [3:0] Cond,
-							input logic [1:0] Op,
-							input logic [5:0] Funct,
-							input logic [3:0] Rd,
-							input logic [3:0] Flags,
+module unidadControl(input logic cllk, rst,
+							input  logic [31:12] Instr,
 							input logic [1:0] sh,
-							output logic PCSrc, MemToReg,MemWrite,
-							ALUSrc,RegWrite,
+							input logic [3:0] ALUFlags,
+							output logic [1:0] RegSrc,
+							output logic RegWrite,
+							output logic [1:0] ImmSrc,
+							output logic ALUSrc,
 							output logic [3:0] ALUControl,
-							output logic [1:0] ImmSrc,RegSrc);
-logic [9:0]generalOut;
-logic Branch, ALUOp;
+							output logic MemWrite, MemToReg,
+							output logic PCSrc);
+logic PCS, RegW, MemW;
 
- always_comb
-		case(Op)
-			2'b00:if(Funct[5])
-						generalOut = 10'b0001001001;
-					else
-						generalOut = 10'b0000111001;
-			2'b01:if(Funct[0])
-						generalOut = 10'b0101011000;
-					else
-						generalOut = 10'b0011010100;
-			2'b10: generalOut = 10'b1001100010;
-			default:generalOut =10'bxxxxxxxxxx;
-		endcase
-		
-assign{Branch, MemToReg,MemWrite,ALUSrc, ImmSrc,RegWrite,RegSrc,ALUOp} = generalOut;
-	
-always_comb
-if(ALUOp) begin
-		case(Funct[4:1])
-			4'b0000: ALUControl = 4'b0010;//AND
-			4'b0001: ALUControl = 4'b0100;//XOR
-			4'b0010: ALUControl = 4'b0001;//SUB
-			4'b0100: ALUControl = 4'b0000;//ADD
-			4'b1100: ALUControl = 4'b0011;//OR
-			4'b1111: ALUControl = 4'b0101;//NOT
-			4'b1101: if(sh==2'b11)
-						ALUControl = 4'b1001;//RotCirc
-			4'b1010: if(Funct[0])
-							ALUControl = 4'b0001;//Comparacion
-			default: ALUControl = 4'bx;
-
+decoALU deco(Instr[27:26],Instr[25:20], Instr[15:12],sh,
+				PCS,RegW, MemW,MemToReg,ALUSrc,ImmSrc,RegSrc,ALUControl);
 				
-		endcase
+logic_Condicion logCond(clk,rst, Instr[31:28], ALUFlags, PCS, RegW, MemW, PCSrc, RegWrite,MemWrite);				
 
-			
+							
 
 endmodule 
+
