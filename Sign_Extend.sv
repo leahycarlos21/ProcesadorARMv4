@@ -7,7 +7,7 @@ always_comb
 		2'b00: B = {24'b0,A[7:0]};
 		2'b01: B = {20'b0, A[11:0]};
 		2'b10: B = {{6{A[23]}},A[23:0],2'b00};
-		default: B = 32'b0;
+		default: B = 32'bx;
 	endcase
 
 endmodule 

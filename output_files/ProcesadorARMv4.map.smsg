@@ -1,4 +1,4 @@
-Warning (10268): Verilog HDL information at bancoRegistros.sv(13): always construct contains both blocking and non-blocking assignments File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/bancoRegistros.sv Line: 13
+Warning (10273): Verilog HDL warning at Sign_Extend.sv(10): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/Sign_Extend.sv Line: 10
 Warning (10268): Verilog HDL information at programCounter.sv(4): always construct contains both blocking and non-blocking assignments File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/programCounter.sv Line: 4
 Warning (10273): Verilog HDL warning at decoALU.sv(41): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/decoALU.sv Line: 41
 Warning (10273): Verilog HDL warning at decoALU.sv(46): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/decoALU.sv Line: 46

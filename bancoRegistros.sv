@@ -4,26 +4,27 @@ module bancoRegistros(input clk,rst, WE3,
 							output logic [31:0] RD1,RD2);
 							
 							
-logic [31:0] regFile [0:15];
+logic [31:0] regFile [14:0];
 
-assign RD1 =  regFile[A1];
-assign RD2 =  regFile[A2];
+ 
 integer 	 i;
 
-always_ff @(negedge clk) 
+always_ff @(posedge clk) 
 begin
 	if(rst)begin
-		for (i = 0; i < 16; i = i + 1) begin
+		for (i = 0; i < 15; i = i + 1) begin
 	    regFile[i] <= 0;
 	 end
 	end
 	else begin
-		regFile[4'b1111] = R15;
+		//regFile[4'b1111] = R15;
 		if(WE3)
-			regFile[A3] = WD3;
+			regFile[A3] <= WD3;
 			end
 		
 	
 end
-		
+	
+assign RD1 =  (A1==4'b1111)? R15: regFile[A1];
+assign RD2 =  (A2==4'b1111)? R15: regFile[A2];
 endmodule  
