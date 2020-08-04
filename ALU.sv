@@ -1,4 +1,4 @@
-module ALU# (parameter size=16)(input logic [3:0] selectCase, 
+module ALU# (parameter size=32)(input logic [3:0] selectCase, 
 											input [size-1:0] a,b
 											,output logic [size-1:0] outALU, output logic [3:0]outFlag);
 											
@@ -24,7 +24,7 @@ flag_Negativo#(size) flagN(resultOut, flagNegativoOut);
 flag_Overflow#(size) flagO(a,b,resultOut,selectCase,flagOverflowOut);
 //Flag Carry es el coutResult ya que es el acarreo de la suma
 
-assign flagALUAux = {flagNegativoOut,flagZeroOut,coutResult,flagOverflowOut};
+assign flagALUAux = {~flagNegativoOut,~flagZeroOut,~coutResult,~flagOverflowOut};
 
 flagMux isFlagMux(selectCase,flagALUAux,outFlag);
 

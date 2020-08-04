@@ -7,7 +7,7 @@ logic [size-1:0]bAux;
 											
 always_comb begin
 		case(ALUSelect)
-			4'b0000 :bAux = b;
+			1'b0 :bAux = b;
 			default :bAux = ~b;
 		endcase 
 	end										

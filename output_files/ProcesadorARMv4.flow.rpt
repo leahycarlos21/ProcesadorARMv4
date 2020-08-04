@@ -1,5 +1,5 @@
 Flow report for ProcesadorARMv4
-Sun Aug 02 15:59:08 2020
+Tue Aug 04 01:58:53 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Sun Aug 02 15:59:08 2020       ;
+; Flow Status                 ; Successful - Tue Aug 04 01:58:53 2020       ;
 ; Quartus Prime Version       ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name               ; ProcesadorARMv4                             ;
 ; Top-level Entity Name       ; testbench                                   ;
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/02/2020 15:58:58 ;
+; Start date & time ; 08/04/2020 01:58:43 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ProcesadorARMv4     ;
 +-------------------+---------------------+
@@ -74,7 +74,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+-----------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value   ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+-----------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 238368709042294.159640553801720        ; --              ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 238368709042294.159652792313016        ; --              ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Systemverilog Hdl                      ; --              ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (SystemVerilog)        ; <None>          ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --              ; --          ; eda_simulation ;
@@ -97,8 +97,8 @@ https://fpgasoftware.intel.com/eula.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:10     ; 1.0                     ; 4809 MB             ; 00:00:27                           ;
-; Total                  ; 00:00:10     ; --                      ; --                  ; 00:00:27                           ;
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 4809 MB             ; 00:00:28                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:28                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

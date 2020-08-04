@@ -48,7 +48,7 @@ always_comb begin
 			endcase
 	end
 	else
-	ALUControl = 4'bx;
+	ALUControl = 4'b0000;
 		
 
 end

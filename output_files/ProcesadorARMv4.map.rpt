@@ -1,5 +1,5 @@
 Analysis & Elaboration report for ProcesadorARMv4
-Sun Aug 02 15:59:08 2020
+Tue Aug 04 01:58:53 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -19,39 +19,34 @@ Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
  11. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|sumador:AdderPlus8
  12. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|mux_:MemRegMux1
  13. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|mux_:MemRegMux2
- 14. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|mux_:outMemDataMux
- 15. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|mux_:muxInputALU
- 16. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu
- 17. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|sum_rest:srALU
- 18. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|and_:andALU
- 19. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|or_:orALU
- 20. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|xor_:xorALU
- 21. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|not_:notALU
- 22. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|shift_left_logical:sll
- 23. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|shift_right_logical:srl
- 24. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|aritm_shift_right:asr
- 25. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|flag_Zero:flagZ
- 26. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|flag_Negativo:flagN
- 27. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|flag_Overflow:flagO
- 28. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|mux_ALU:mux_NALU
+ 14. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|mux_:muxInputALU
+ 15. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu
+ 16. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|sum_rest:srALU
+ 17. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|and_:andALU
+ 18. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|or_:orALU
+ 19. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|xor_:xorALU
+ 20. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|not_:notALU
+ 21. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|shift_left_logical:sll
+ 22. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|shift_right_logical:srl
+ 23. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|aritm_shift_right:asr
+ 24. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|flag_Zero:flagZ
+ 25. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|flag_Negativo:flagN
+ 26. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|flag_Overflow:flagO
+ 27. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|ALU:alu|mux_ALU:mux_NALU
+ 28. Parameter Settings for User Entity Instance: general:DUT|armv4:arm|mux_:outMemDataMux
  29. Parameter Settings for User Entity Instance: general:DUT|MEM_INST:memInstr|altsyncram:altsyncram_component
  30. Parameter Settings for User Entity Instance: general:DUT|MEM_DATA:memData|altsyncram:altsyncram_component
  31. altsyncram Parameter Settings by Entity Instance
  32. Analysis & Elaboration Settings
- 33. Port Connectivity Checks: "general:DUT|MEM_DATA:memData"
- 34. Port Connectivity Checks: "general:DUT|MEM_INST:memInstr"
- 35. Port Connectivity Checks: "general:DUT|armv4:arm|ALU:alu|flag_Overflow:flagO"
- 36. Port Connectivity Checks: "general:DUT|armv4:arm|ALU:alu|sum_rest:srALU"
- 37. Port Connectivity Checks: "general:DUT|armv4:arm|ALU:alu"
- 38. Port Connectivity Checks: "general:DUT|armv4:arm|mux_:muxInputALU"
- 39. Port Connectivity Checks: "general:DUT|armv4:arm|bancoRegistros:regFile"
- 40. Port Connectivity Checks: "general:DUT|armv4:arm|mux_:MemRegMux1"
- 41. Port Connectivity Checks: "general:DUT|armv4:arm|sumador:AdderPlus8"
- 42. Port Connectivity Checks: "general:DUT|armv4:arm|sumador:AdderPlus4"
- 43. Port Connectivity Checks: "general:DUT|armv4:arm"
- 44. Port Connectivity Checks: "general:DUT"
- 45. Analysis & Elaboration Messages
- 46. Analysis & Elaboration Suppressed Messages
+ 33. Port Connectivity Checks: "general:DUT|armv4:arm|ALU:alu|flag_Overflow:flagO"
+ 34. Port Connectivity Checks: "general:DUT|armv4:arm|ALU:alu|sum_rest:srALU"
+ 35. Port Connectivity Checks: "general:DUT|armv4:arm|mux_:MemRegMux1"
+ 36. Port Connectivity Checks: "general:DUT|armv4:arm|sumador:AdderPlus8"
+ 37. Port Connectivity Checks: "general:DUT|armv4:arm|sumador:AdderPlus4"
+ 38. Port Connectivity Checks: "general:DUT|armv4:arm"
+ 39. Port Connectivity Checks: "general:DUT"
+ 40. Analysis & Elaboration Messages
+ 41. Analysis & Elaboration Suppressed Messages
 
 
 
@@ -78,7 +73,7 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Sun Aug 02 15:59:08 2020       ;
+; Analysis & Elaboration Status ; Successful - Tue Aug 04 01:58:53 2020       ;
 ; Quartus Prime Version         ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                 ; ProcesadorARMv4                             ;
 ; Top-level Entity Name         ; testbench                                   ;
@@ -207,16 +202,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
-+---------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: general:DUT|armv4:arm|mux_:outMemDataMux ;
-+----------------+-------+--------------------------------------------------------------+
-; Parameter Name ; Value ; Type                                                         ;
-+----------------+-------+--------------------------------------------------------------+
-; size           ; 32    ; Signed Integer                                               ;
-+----------------+-------+--------------------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: general:DUT|armv4:arm|mux_:muxInputALU ;
 +----------------+-------+------------------------------------------------------------+
@@ -232,7 +217,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------+
 ; Parameter Name ; Value ; Type                                              ;
 +----------------+-------+---------------------------------------------------+
-; size           ; 31    ; Signed Integer                                    ;
+; size           ; 32    ; Signed Integer                                    ;
 +----------------+-------+---------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -242,7 +227,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                             ;
 +----------------+-------+------------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                   ;
+; size           ; 32    ; Signed Integer                                                   ;
 +----------------+-------+------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -252,7 +237,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                          ;
 +----------------+-------+---------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                ;
+; size           ; 32    ; Signed Integer                                                ;
 +----------------+-------+---------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -262,7 +247,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                        ;
 +----------------+-------+-------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                              ;
+; size           ; 32    ; Signed Integer                                              ;
 +----------------+-------+-------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -272,7 +257,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                          ;
 +----------------+-------+---------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                ;
+; size           ; 32    ; Signed Integer                                                ;
 +----------------+-------+---------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -282,7 +267,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                          ;
 +----------------+-------+---------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                ;
+; size           ; 32    ; Signed Integer                                                ;
 +----------------+-------+---------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -292,7 +277,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                     ;
 +----------------+-------+--------------------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                           ;
+; size           ; 32    ; Signed Integer                                                           ;
 +----------------+-------+--------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -302,7 +287,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+---------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                      ;
 +----------------+-------+---------------------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                            ;
+; size           ; 32    ; Signed Integer                                                            ;
 +----------------+-------+---------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -312,7 +297,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                    ;
 +----------------+-------+-------------------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                          ;
+; size           ; 32    ; Signed Integer                                                          ;
 +----------------+-------+-------------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -322,7 +307,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                              ;
 +----------------+-------+-------------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                    ;
+; size           ; 32    ; Signed Integer                                                    ;
 +----------------+-------+-------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -332,7 +317,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                  ;
 +----------------+-------+-----------------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                        ;
+; size           ; 32    ; Signed Integer                                                        ;
 +----------------+-------+-----------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -342,7 +327,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+-----------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                                  ;
 +----------------+-------+-----------------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                        ;
+; size           ; 32    ; Signed Integer                                                        ;
 +----------------+-------+-----------------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
@@ -352,8 +337,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+-------+--------------------------------------------------------------------+
 ; Parameter Name ; Value ; Type                                                               ;
 +----------------+-------+--------------------------------------------------------------------+
-; size           ; 31    ; Signed Integer                                                     ;
+; size           ; 32    ; Signed Integer                                                     ;
 +----------------+-------+--------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: general:DUT|armv4:arm|mux_:outMemDataMux ;
++----------------+-------+--------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                         ;
++----------------+-------+--------------------------------------------------------------+
+; size           ; 32    ; Signed Integer                                               ;
++----------------+-------+--------------------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -598,24 +593,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "general:DUT|MEM_DATA:memData"                                                                                                                                                        ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; address ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "general:DUT|MEM_INST:memInstr"                                                                                                                                                       ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port    ; Type  ; Severity ; Details                                                                                                                                                                            ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; address ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (8 bits) it drives.  The 24 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+---------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "general:DUT|armv4:arm|ALU:alu|flag_Overflow:flagO"                                                                                                                                   ;
 +-----------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port      ; Type  ; Severity ; Details                                                                                                                                                                          ;
@@ -631,35 +608,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; ALUSelect ; Input ; Warning  ; Input port expression (4 bits) is wider than the input port (1 bits) it drives.  The 3 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
 +-----------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "general:DUT|armv4:arm|ALU:alu"                                                                                                                                                       ;
-+--------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port   ; Type   ; Severity ; Details                                                                                                                                                                            ;
-+--------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; a      ; Input  ; Warning  ; Input port expression (32 bits) is wider than the input port (31 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; b      ; Input  ; Warning  ; Input port expression (32 bits) is wider than the input port (31 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; outALU ; Output ; Warning  ; Output or bidir port (31 bits) is smaller than the port expression (32 bits) it drives.  The 1 most-significant bit(s) in the port expression will be connected to GND.            ;
-+--------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "general:DUT|armv4:arm|mux_:muxInputALU"                                                ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; Port    ; Type   ; Severity ; Details                                                                             ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; out[31] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-
-
-+-------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "general:DUT|armv4:arm|bancoRegistros:regFile"                                          ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; Port    ; Type   ; Severity ; Details                                                                             ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
-; RD1[31] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+---------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +-------------------------------------------------------------------+
@@ -719,7 +667,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Sun Aug 02 15:58:58 2020
+    Info: Processing started: Tue Aug 04 01:58:42 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ProcesadorARMv4 -c ProcesadorARMv4 --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -782,8 +730,8 @@ Info (12021): Found 1 design units, including 1 entities, in source file general
 Warning (10236): Verilog HDL Implicit Net warning at flag_Overflow.sv(18): created implicit net for "signOpuesto" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Overflow.sv Line: 18
 Warning (10236): Verilog HDL Implicit Net warning at unidadControl.sv(17): created implicit net for "clk" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/unidadControl.sv Line: 17
 Info (12127): Elaborating entity "testbench" for the top level hierarchy
-Warning (10755): Verilog HDL warning at testbench.sv(24): assignments to clk create a combinational loop File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv Line: 24
-Info (12128): Elaborating entity "general" for hierarchy "general:DUT" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv Line: 11
+Warning (10755): Verilog HDL warning at testbench.sv(57): assignments to clk create a combinational loop File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv Line: 57
+Info (12128): Elaborating entity "general" for hierarchy "general:DUT" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv Line: 12
 Info (12128): Elaborating entity "armv4" for hierarchy "general:DUT|armv4:arm" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/general.sv Line: 6
 Info (12128): Elaborating entity "unidadControl" for hierarchy "general:DUT|armv4:arm|unidadControl:unitControl" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 28
 Info (12128): Elaborating entity "decoALU" for hierarchy "general:DUT|armv4:arm|unidadControl:unitControl|decoALU:deco" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/unidadControl.sv Line: 15
@@ -793,9 +741,8 @@ Info (12128): Elaborating entity "mux_" for hierarchy "general:DUT|armv4:arm|mux
 Info (12128): Elaborating entity "programCounter" for hierarchy "general:DUT|armv4:arm|programCounter:program_Counter" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 33
 Info (12128): Elaborating entity "sumador" for hierarchy "general:DUT|armv4:arm|sumador:AdderPlus4" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 34
 Info (12128): Elaborating entity "mux_" for hierarchy "general:DUT|armv4:arm|mux_:MemRegMux1" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 39
-Info (12128): Elaborating entity "bancoRegistros" for hierarchy "general:DUT|armv4:arm|bancoRegistros:regFile" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 45
-Info (12128): Elaborating entity "Sign_Extend" for hierarchy "general:DUT|armv4:arm|Sign_Extend:extend" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 49
-Info (12128): Elaborating entity "ALU" for hierarchy "general:DUT|armv4:arm|ALU:alu" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 56
+Info (12128): Elaborating entity "Sign_Extend" for hierarchy "general:DUT|armv4:arm|Sign_Extend:extend" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 44
+Info (12128): Elaborating entity "ALU" for hierarchy "general:DUT|armv4:arm|ALU:alu" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 51
 Info (12128): Elaborating entity "sum_rest" for hierarchy "general:DUT|armv4:arm|ALU:alu|sum_rest:srALU" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv Line: 9
 Info (12128): Elaborating entity "and_" for hierarchy "general:DUT|armv4:arm|ALU:alu|and_:andALU" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv Line: 11
 Info (12128): Elaborating entity "or_" for hierarchy "general:DUT|armv4:arm|ALU:alu|or_:orALU" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv Line: 12
@@ -810,6 +757,7 @@ Info (12128): Elaborating entity "flag_Negativo" for hierarchy "general:DUT|armv
 Info (12128): Elaborating entity "flag_Overflow" for hierarchy "general:DUT|armv4:arm|ALU:alu|flag_Overflow:flagO" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv Line: 24
 Info (12128): Elaborating entity "flagMux" for hierarchy "general:DUT|armv4:arm|ALU:alu|flagMux:isFlagMux" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv Line: 29
 Info (12128): Elaborating entity "mux_ALU" for hierarchy "general:DUT|armv4:arm|ALU:alu|mux_ALU:mux_NALU" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv Line: 42
+Info (12128): Elaborating entity "bancoRegistros" for hierarchy "general:DUT|armv4:arm|bancoRegistros:regFile" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 58
 Info (12128): Elaborating entity "MEM_INST" for hierarchy "general:DUT|MEM_INST:memInstr" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/general.sv Line: 8
 Info (12128): Elaborating entity "altsyncram" for hierarchy "general:DUT|MEM_INST:memInstr|altsyncram:altsyncram_component" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/MEM_INST.v Line: 82
 Info (12130): Elaborated megafunction instantiation "general:DUT|MEM_INST:memInstr|altsyncram:altsyncram_component" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/MEM_INST.v Line: 82
@@ -854,15 +802,13 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_den1 File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/db/altsyncram_den1.tdf Line: 28
 Info (12128): Elaborating entity "altsyncram_den1" for hierarchy "general:DUT|MEM_DATA:memData|altsyncram:altsyncram_component|altsyncram_den1:auto_generated" File: d:/intelfpga_lite/19.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 792
 Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "general:DUT|armv4:arm|ALUResult[31]" is missing source, defaulting to GND File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv Line: 5
-Warning (12011): Net is missing source, defaulting to GND
-    Warning (12110): Net "clk" is missing source, defaulting to GND File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv Line: 8
-Warning (12241): 5 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+    Warning (12110): Net "clk" is missing source, defaulting to GND File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv Line: 9
+Warning (12241): 2 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (144001): Generated suppressed messages file D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/output_files/ProcesadorARMv4.map.smsg
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 10 warnings
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 8 warnings
     Info: Peak virtual memory: 4809 megabytes
-    Info: Processing ended: Sun Aug 02 15:59:08 2020
-    Info: Elapsed time: 00:00:10
+    Info: Processing ended: Tue Aug 04 01:58:53 2020
+    Info: Elapsed time: 00:00:11
     Info: Total CPU time (on all processors): 00:00:28
 
 

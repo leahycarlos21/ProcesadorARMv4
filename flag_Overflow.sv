@@ -7,8 +7,8 @@ logic IsSumRest, signOpuesto2, verif3;
 											
 always_comb begin
 		case(ALUSelect)
-			4'b0000 :IsSumRest = 1;
-			4'b0001 :IsSumRest = 1;
+			1'b0 :IsSumRest = 1;
+			1'b1 :IsSumRest = 1;
 			default :IsSumRest = 0;
 		endcase 
 	end
