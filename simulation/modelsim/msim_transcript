@@ -12,217 +12,217 @@
 # 
 # vlog -vlog01compat -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/MEM_INST.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:02 on Aug 04,2020
+# Start time: 16:37:12 on Aug 04,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/MEM_INST.v 
 # -- Compiling module MEM_INST
 # 
 # Top level modules:
 # 	MEM_INST
-# End time: 01:59:02 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:12 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/MEM_DATA.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:02 on Aug 04,2020
+# Start time: 16:37:12 on Aug 04,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/MEM_DATA.v 
 # -- Compiling module MEM_DATA
 # 
 # Top level modules:
 # 	MEM_DATA
-# End time: 01:59:02 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:12 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/bancoRegistros.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:02 on Aug 04,2020
+# Start time: 16:37:12 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/bancoRegistros.sv 
 # -- Compiling module bancoRegistros
 # 
 # Top level modules:
 # 	bancoRegistros
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:01
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/Sign_Extend.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/Sign_Extend.sv 
 # -- Compiling module Sign_Extend
 # 
 # Top level modules:
 # 	Sign_Extend
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/sum_rest.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/sum_rest.sv 
 # -- Compiling module sum_rest
 # 
 # Top level modules:
 # 	sum_rest
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/and_.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/and_.sv 
 # -- Compiling module and_
 # 
 # Top level modules:
 # 	and_
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/or_.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/or_.sv 
 # -- Compiling module or_
 # 
 # Top level modules:
 # 	or_
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/xor_.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/xor_.sv 
 # -- Compiling module xor_
 # 
 # Top level modules:
 # 	xor_
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/not_.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/not_.sv 
 # -- Compiling module not_
 # 
 # Top level modules:
 # 	not_
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/shift_left_logical.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/shift_left_logical.sv 
 # -- Compiling module shift_left_logical
 # 
 # Top level modules:
 # 	shift_left_logical
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/shift_right_logical.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/shift_right_logical.sv 
 # -- Compiling module shift_right_logical
 # 
 # Top level modules:
 # 	shift_right_logical
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/aritm_shift_right.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/aritm_shift_right.sv 
 # -- Compiling module aritm_shift_right
 # 
 # Top level modules:
 # 	aritm_shift_right
-# End time: 01:59:03 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Zero.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:03 on Aug 04,2020
+# Start time: 16:37:13 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Zero.sv 
 # -- Compiling module flag_Zero
 # 
 # Top level modules:
 # 	flag_Zero
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:01
+# End time: 16:37:13 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Negativo.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Negativo.sv 
 # -- Compiling module flag_Negativo
 # 
 # Top level modules:
 # 	flag_Negativo
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Overflow.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Overflow.sv 
 # -- Compiling module flag_Overflow
 # 
 # Top level modules:
 # 	flag_Overflow
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flagMux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flagMux.sv 
 # -- Compiling module flagMux
 # 
 # Top level modules:
 # 	flagMux
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux_ALU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux_ALU.sv 
 # -- Compiling module mux_ALU
 # 
 # Top level modules:
 # 	mux_ALU
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv 
 # -- Compiling module ALU
 # 
 # Top level modules:
 # 	ALU
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/sumador.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/sumador.sv 
 # -- Compiling module sumador
 # 
 # Top level modules:
 # 	sumador
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux_.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux_.sv 
 # -- Compiling module mux_
 # 
 # Top level modules:
 # 	mux_
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/programCounter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/programCounter.sv 
 # -- Compiling module programCounter
 # ** Warning: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/programCounter.sv(7): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
@@ -230,72 +230,72 @@
 # 
 # Top level modules:
 # 	programCounter
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 2
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/unidadControl.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/unidadControl.sv 
 # -- Compiling module unidadControl
 # 
 # Top level modules:
 # 	unidadControl
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/decoALU.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/decoALU.sv 
 # -- Compiling module decoALU
 # 
 # Top level modules:
 # 	decoALU
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/registro.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:04 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/registro.sv 
 # -- Compiling module registro
 # 
 # Top level modules:
 # 	registro
-# End time: 01:59:04 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:14 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/logic_Condicion.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:05 on Aug 04,2020
+# Start time: 16:37:14 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/logic_Condicion.sv 
 # -- Compiling module logic_Condicion
 # 
 # Top level modules:
 # 	logic_Condicion
-# End time: 01:59:05 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:15 on Aug 04,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:05 on Aug 04,2020
+# Start time: 16:37:15 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv 
 # -- Compiling module armv4
 # 
 # Top level modules:
 # 	armv4
-# End time: 01:59:05 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:15 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/general.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 01:59:05 on Aug 04,2020
+# Start time: 16:37:15 on Aug 04,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4" D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/general.sv 
 # -- Compiling module general
 # 
 # Top level modules:
 # 	general
-# End time: 01:59:05 on Aug 04,2020, Elapsed time: 0:00:00
+# End time: 16:37:15 on Aug 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim -L altera_mf_ver -L lpm_ver testbench
 # vsim -L altera_mf_ver -L lpm_ver testbench 
-# Start time: 01:59:14 on Aug 04,2020
+# Start time: 16:38:20 on Aug 04,2020
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.general
@@ -335,9 +335,11 @@ vsim -L altera_mf_ver -L lpm_ver testbench
 #    Time: 0 ps  Iteration: 0  Instance: /testbench/DUT/arm/alu/flagO File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Overflow.sv
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: leahycarlos21  Hostname: DESKTOP-RSVVR64  ProcessID: 8092
-#           Attempting to use alternate WLF file "./wlft6wgdet".
+#           Attempting to use alternate WLF file "./wlft75n6rk".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft6wgdet
+#           Using alternate file: ./wlft75n6rk
+
+
 run 5000
-# End time: 02:13:29 on Aug 04,2020, Elapsed time: 0:14:15
+# End time: 16:40:54 on Aug 04,2020, Elapsed time: 0:02:34
 # Errors: 0, Warnings: 4
