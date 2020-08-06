@@ -1,0 +1,109 @@
+-- Copyright (C) 2019  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and any partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details, at
+-- https://fpgasoftware.intel.com/eula.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=32;
+DEPTH=512;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	000  :   E0800000;
+	[001..003]  :   00000000;
+	004  :   E0800000;
+	[005..007]  :   00000000;
+	008  :   E5981800;
+	[009..00B]  :   00000000;
+	00C  :   E2888001;
+	[00D..00F]  :   00000000;
+	010  :   E2514000;
+	[011..013]  :   00000000;
+	014  :   0A000005;
+	[015..017]  :   00000000;
+	018  :   E2514001;
+	[019..01B]  :   00000000;
+	01C  :   0A00000D;
+	[01D..01F]  :   00000000;
+	020  :   E2514003;
+	[021..023]  :   00000000;
+	024  :   0A000015;
+	[025..027]  :   00000000;
+	028  :   E0500000;
+	[029..02B]  :   00000000;
+	02C  :   0AFFFFF3;
+	[02D..02F]  :   00000000;
+	030  :   E0800000;
+	[031..033]  :   00000000;
+	034  :   E0800000;
+	[035..037]  :   00000000;
+	038  :   E5982800;
+	[039..03B]  :   00000000;
+	03C  :   E2888001;
+	[03D..03F]  :   00000000;
+	040  :   E25240FF;
+	[041..043]  :   00000000;
+	044  :   0AFFFFED;
+	[045..047]  :   00000000;
+	048  :   E2222033;
+	[049..04B]  :   00000000;
+	04C  :   E5872000;
+	[04D..04F]  :   00000000;
+	050  :   E2877001;
+	[051..053]  :   00000000;
+	054  :   EAFFFFF5;
+	[055..057]  :   00000000;
+	058  :   E0800000;
+	[059..05B]  :   00000000;
+	05C  :   E0800000;
+	[05D..05F]  :   00000000;
+	060  :   E5982800;
+	[061..063]  :   00000000;
+	064  :   E2888001;
+	[065..067]  :   00000000;
+	068  :   E25240FF;
+	[069..06B]  :   00000000;
+	06C  :   0AFFFFE3;
+	[06D..06F]  :   00000000;
+	070  :   E22220FF;
+	[071..073]  :   00000000;
+	074  :   E5872000;
+	[075..077]  :   00000000;
+	078  :   E2877001;
+	[079..07B]  :   00000000;
+	07C  :   EAFFFFF5;
+	[07D..07F]  :   00000000;
+	080  :   E0800000;
+	[081..083]  :   00000000;
+	084  :   E0800000;
+	[085..087]  :   00000000;
+	088  :   E5982800;
+	[089..08B]  :   00000000;
+	08C  :   E2888001;
+	[08D..08F]  :   00000000;
+	090  :   E25240FF;
+	[091..093]  :   00000000;
+	094  :   0AFFFFD9;
+	[095..097]  :   00000000;
+	098  :   E1A021E2;
+	[099..09B]  :   00000000;
+	09C  :   E5872000;
+	[09D..09F]  :   00000000;
+	0A0  :   E2877001;
+	[0A1..0A3]  :   00000000;
+	0A4  :   EAFFFFF5;
+	[0A5..1FF]  :   00000000;
+END;

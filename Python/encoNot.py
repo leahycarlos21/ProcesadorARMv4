@@ -1,4 +1,4 @@
-message = "HOLA"
+message = "hola"
 
 llave = 0xFF
 
@@ -8,5 +8,5 @@ coded.append(0x00)
 for i in range(len(msg_list)):
         coded.append( ord(msg_list[i])^llave)
 coded.append(0xFF)
-with open("D:/Tony/Desktop/c/Clases virtuales/Taller/Proyect/Archivos/Notfile.hex", "wb") as bin_file:
+with open("Notfile.hex", "wb") as bin_file:
 	bin_file.write(bytes(coded))

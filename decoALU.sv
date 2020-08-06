@@ -30,7 +30,7 @@ assign{ RegSrc,ImmSrc,ALUSrc,MemToReg, RegWrite,MemWrite,Branch,ALUOp} = general
 always_comb begin
 	if(ALUOp) begin
 			case(Funct[4:1])
-				4'b0000: ALUControl = 4'b0010;//AND
+				4'b0000: ALUControl = 4'b0110;//AND
 				4'b0001: ALUControl = 4'b0100;//XOR
 				4'b0010: ALUControl = 4'b0001;//SUB
 				4'b0100: ALUControl = 4'b0000;//ADD

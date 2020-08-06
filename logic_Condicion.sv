@@ -7,7 +7,7 @@ module  logic_Condicion(input logic clk, rst,
 
 logic [1:0] FlagWrite;
 logic [3:0] Flags;
-logic CondEx;
+logic CondEx; 
 
 registro #(2)reg1(clk, rst, FlagWrite[1], ALU_Flags[3:2], Flags[3:2]);
 

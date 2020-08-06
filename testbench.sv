@@ -3,7 +3,7 @@
 `timescale 1 ps / 1 ps
 module testbench();
 
-    
+     
      
  
 logic clk,rst, MemWrite;
@@ -22,7 +22,7 @@ rst=0;
 
 
 //fd_w = $fopen("./msg.txt","w");
-//$fdisplay(fd_w,"%s","123");
+//$fdisplay(fd_w,"%s","Codigo Decodificado:");
 //$fclose(fd_w);  
 
 end
@@ -51,5 +51,4 @@ endmodule
 
 
 
-//vsim -L altera_mf_ver -L lpm_ver testbench
 //vsim -L altera_mf_ver -L lpm_ver testbench

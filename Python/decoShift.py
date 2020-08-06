@@ -1,5 +1,5 @@
 
-with open("D:/Tony/Desktop/c/Clases virtuales/Taller/Proyect/Archivos/fileShift.hex", "rb") as bin:
+with open("shift.hex", "rb") as bin:
 	data= bin.read()
 	mode = data[0]
 	num_bits = data[1]

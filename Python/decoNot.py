@@ -1,4 +1,4 @@
-with open("D:/Tony/Desktop/c/Clases virtuales/Taller/Proyect/Archivos/Notfile.hex", "rb") as bin:
+with open("Notfile.hex", "rb") as bin:
 	data= bin.read()
 	mode = data[0]
 	llave = 0xFF
