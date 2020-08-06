@@ -82,9 +82,13 @@ set_global_assignment -name SYSTEMVERILOG_FILE registro.sv
 set_global_assignment -name SYSTEMVERILOG_FILE logic_Condicion.sv
 set_global_assignment -name SYSTEMVERILOG_FILE armv4.sv
 set_global_assignment -name SYSTEMVERILOG_FILE general.sv
+set_global_assignment -name MIF_FILE ROM1.mif
+set_global_assignment -name SYSTEMVERILOG_FILE chipSet.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux3_1.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name HEX_FILE ROM1.hex
-set_global_assignment -name MIF_FILE ROM1.mif
+set_global_assignment -name SYSTEMVERILOG_FILE restador.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ROM.sv
+set_global_assignment -name MIF_FILE XOR_INSTR.mif
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,17 @@
+module mux3_1# (parameter size=32)(input logic  [1:0]selectCase, 
+											input [size-1:0] 
+											value0 ,
+											value1 ,
+											value2 ,
+											output logic [size-1:0] out);
+always_comb 
+	begin
+		case(selectCase)
+			2'b00 :out = value0;
+			2'b01 :out = value1;
+			2'b10 :out = value2;
+			default :out = 2'bx;
+		endcase 
+	end
+
+endmodule 

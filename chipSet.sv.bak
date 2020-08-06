@@ -1,0 +1,59 @@
+module chipSet #(parameter size = 32)(input logic [size-1:0] DataAddr,
+													input logic MemWrite,
+													output logic WERA,WET,
+													output logic [1:0] muxSelect);
+													
+													
+always_comb
+	case(MemWrite)
+		1'b0: begin
+					if(DataAddr >= 4'h0000 && DataAddr <= 4'h0FFF) begin
+						WET = 1'b0;
+						WERA = 1'b1;
+						muxSelect = 2'b00;
+					end
+					else if(DataAddr >= 4'h1000 && DataAddr <= 4'h1FFF) begin
+						WET = 1'b0;
+						WERA = 1'b0;
+						muxSelect = 2'b01;
+					end
+					else if(DataAddr >= 4'h2000) begin
+						WET = 1'b0;
+						WERA = 1'b0;
+						muxSelect = 2'b10;
+					end
+					
+					else begin
+						WET = 1'bx;
+						WERA = 1'bx;
+						muxSelect = 2'bx;
+				
+				
+				end
+		1'b1: begin
+					begin
+					if(DataAddr >= 4'h0000 && DataAddr <= 4'h0FFF) begin
+						WET = 1'b0;
+						WERA = 1'b0;
+						muxSelect = 2'b00;
+					end
+					else if(DataAddr >= 4'h1000 && DataAddr <= 4'h1FFF) begin
+						WET = 1'b0;
+						WERA = 1'b1;
+						muxSelect = 2'b01;
+					end
+					
+					else if(DataAddr >= 4'h1000 ) begin
+						WET = 1'b1;
+						WERA = 1'b0;
+						muxSelect = 2'b10;
+					end
+					
+					else begin
+						WET = 1'bx;
+						WERA = 1'bx;
+						muxSelect = 2'bx;
+					end
+		endcase
+endmodule
+			

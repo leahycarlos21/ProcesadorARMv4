@@ -1,0 +1,10 @@
+module ROM(input logic [7:0] address,
+                output logic [7:0] q);
+
+    logic [7:0] MEM[255:0];
+
+    initial
+        $readmemh("decoInst.txt", ROM);
+        assign q = MEM[a[7:0]];
+
+endmodule
