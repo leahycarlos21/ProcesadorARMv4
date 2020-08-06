@@ -10,7 +10,7 @@ cModel Technology
 Z0 dD:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/simulation/modelsim
 vALU
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1596702024
+Z2 !s110 1596705505
 !i10b 1
 !s100 M<FT2cRkTLJ5Yz42Ed4AO0
 I9396k;Zk0?9`^03Phn6KY3
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1596702023.000000
+Z5 !s108 1596705504.000000
 !s107 D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4|D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv|
 !i113 1
@@ -36,7 +36,7 @@ Z8 tCvgOpt 0
 n@a@l@u
 vand_
 R1
-Z9 !s110 1596702023
+Z9 !s110 1596705504
 !i10b 1
 !s100 lC6EUDW=h9Ag=BheUgCi;2
 Ie]hVYdIIbzEY5fB?K98e80
@@ -52,7 +52,7 @@ R4
 r1
 !s85 0
 31
-Z10 !s108 1596702022.000000
+Z10 !s108 1596705503.000000
 !s107 D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/and_.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4|D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/and_.sv|
 !i113 1
@@ -102,7 +102,7 @@ R4
 r1
 !s85 0
 31
-Z11 !s108 1596702024.000000
+Z11 !s108 1596705505.000000
 !s107 D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4|D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/armv4.sv|
 !i113 1
@@ -111,7 +111,7 @@ R7
 R8
 vbancoRegistros
 R1
-Z12 !s110 1596702022
+Z12 !s110 1596705503
 !i10b 1
 !s100 WRhSMIi6::1Vk6l9Ml^9R2
 I[UL0jkAkC52Sf9:YTcW8h3
@@ -163,7 +163,7 @@ R8
 nchip@set
 vcondcheck
 R1
-Z13 !s110 1596702025
+Z13 !s110 1596705506
 !i10b 1
 !s100 7^Q:TXH]bAIRPGo02<Zi=3
 Igzm4JlLB3:=UYg3Tc4NX`0
@@ -179,7 +179,7 @@ R4
 r1
 !s85 0
 31
-Z14 !s108 1596702025.000000
+Z14 !s108 1596705506.000000
 !s107 D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/condcheck.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4|D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/condcheck.sv|
 !i113 1
@@ -415,7 +415,7 @@ R8
 n@m@e@m_@i@n@s@t
 vmux3_1
 R1
-R13
+R2
 !i10b 1
 !s100 [_8iGTf4KFCzcSY21]^2_3
 Imk3hCW;jz9XP?ZLB>3Zk@0
@@ -770,13 +770,13 @@ vtestbench
 R1
 R12
 !i10b 1
-!s100 ;MWhQKTU`UE`GPh<GDl0C1
-I0P:07OYJ]dggP^jTSEo_33
+!s100 YSSSI4bFEF5e2I7_f?ifE0
+II05FoCkj<zGYzfSKT`a0E3
 R3
 !s105 testbench_sv_unit
 S1
 R0
-w1596696625
+w1596705481
 8D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv
 FD:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/testbench.sv
 L0 4

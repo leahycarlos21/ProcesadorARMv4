@@ -7,4 +7,4 @@ module rom (input logic [7:0] a,
         $readmemh("C:/arm/xor.txt", ROM);
         assign rd = ROM[a[7:0]];
 
-endmodule
+endmodule 
