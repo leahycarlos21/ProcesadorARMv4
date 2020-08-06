@@ -1,5 +1,5 @@
 module mux_# (parameter size=4)(input logic  selectCase, 
-											input [size-1:0] 
+											input logic [size-1:0] 
 											value0 ,
 											value1 ,
 											output logic [size-1:0] out);

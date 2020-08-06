@@ -1,9 +1,7 @@
-module registro #(parameter size = 2)(input logic clk, rst, enable,
-													input logic [size-1:0] in,
-													output logic [size-1:0] out);
-always_ff@(posedge clk, posedge rst)
-	if(rst) 
-		out<=0;
-	else if(enable)
-		out<=in;
-endmodule  
+module registro #(parameter WIDTH = 8)
+    (input logic clk, reset, en,
+    input logic [WIDTH-1:0] d, output logic [WIDTH-1:0] q);
+    always_ff @(negedge clk, posedge reset) 
+    if (reset) q <= 0;
+    else if (en) q <= d;
+endmodule

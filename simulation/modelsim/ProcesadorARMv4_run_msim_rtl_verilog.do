@@ -21,7 +21,6 @@ vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDi
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Zero.sv}
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Negativo.sv}
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flag_Overflow.sv}
-vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/flagMux.sv}
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux_ALU.sv}
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ALU.sv}
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/sumador.sv}
@@ -36,5 +35,7 @@ vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDi
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/chipSet.sv}
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux3_1.sv}
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/restador.sv}
+vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/corrimiento_Circular.sv}
+vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/condcheck.sv}
 vlog -sv -work work +incdir+D:/leahycarlos21/Documents/TEC/I\ SEM\ 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4 {D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/ROM.sv}
 

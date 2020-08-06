@@ -39,6 +39,11 @@ sumador#(32) AdderPlus8(PCPlus4,32'b100,PCPlus8);
 mux_ #(4) MemRegMux1 (RegSrc[0],Instr[19:16],4'b1111,RA1);
 mux_ #(4) MemRegMux2 (RegSrc[1],Instr[3:0],Instr[15:12],RA2);
 
+bancoRegistros regFile(clk,rst, RegWrite,
+							RA1,RA2,Instr[15:12], 
+							Result,PCPlus8,
+							SrcA,WriteData);
+mux_ #(32) outMemDataMux (MemToReg,ALUResult,ReadData,Result);
 
 
 Sign_Extend  extend( ImmSrc,Instr[23:0],ExtImm);
@@ -50,12 +55,8 @@ mux_ #(32) muxInputALU (ALUSrc,WriteData,ExtImm,SrcB);
 
 ALU#(32) alu(ALUControl, SrcA,SrcB,ALUResult, ALUFlags);
 
-mux_ #(32) outMemDataMux (MemToReg,ALUResult,ReadData,Result);
 
-bancoRegistros regFile(clk,rst, RegWrite,
-							RA1,RA2,Instr[15:12], 
-							Result,PCPlus8,
-							SrcA,WriteData);
+
 							
 
 

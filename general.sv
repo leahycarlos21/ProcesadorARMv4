@@ -35,7 +35,8 @@ MEM_DATA RAM(adressRAM[7:0],~clk,WriteData,WERA,dataRAM);
 
 
 
-registro #(32) timer(clk,rst,WET,WriteData,dataTimer);
+registro #(32) timer1(clk,rst,WET,WriteData,dataTimer);
+
 
 mux3_1# (32) mux3_1(muxSelect,dataTimer,dataRAM,{24'b0,dataROM},ReadData);
 

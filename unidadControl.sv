@@ -10,11 +10,11 @@ module unidadControl(input logic cllk, rst,
 							output logic MemWrite, MemToReg,
 							output logic PCSrc);
 logic PCS, RegW, MemW;
-
-decoALU deco(Instr[27:26],Instr[25:20], Instr[15:12],sh,
+logic [1:0] FlagW;
+decoALU deco(Instr[27:26],Instr[25:20], Instr[15:12],FlagW,sh,
 				PCS,RegW, MemW,MemToReg,ALUSrc,ImmSrc,RegSrc,ALUControl);
 				
-logic_Condicion logCond(clk,rst, Instr[31:28], ALUFlags, PCS, RegW, MemW, PCSrc, RegWrite,MemWrite);				
+logic_Condicion logCond(clk,rst, Instr[31:28], ALUFlags,FlagW, PCS, RegW, MemW, PCSrc, RegWrite,MemWrite);				
 
 							
 

@@ -3,8 +3,8 @@ module rom (input logic [7:0] a,
 
     logic [7:0] ROM[255:0];
 
-    initial
-        $readmemh("C:/arm/decoInst.txt", ROM);
+    initial 
+        $readmemh("C:/arm/xor.txt", ROM);
         assign rd = ROM[a[7:0]];
 
 endmodule

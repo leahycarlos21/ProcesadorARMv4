@@ -1,8 +1,8 @@
 Warning (10273): Verilog HDL warning at Sign_Extend.sv(10): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/Sign_Extend.sv Line: 10
-Warning (10268): Verilog HDL information at programCounter.sv(4): always construct contains both blocking and non-blocking assignments File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/programCounter.sv Line: 4
-Warning (10273): Verilog HDL warning at decoALU.sv(41): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/decoALU.sv Line: 41
-Warning (10273): Verilog HDL warning at decoALU.sv(46): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/decoALU.sv Line: 46
+Warning (10273): Verilog HDL warning at decoALU.sv(42): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/decoALU.sv Line: 42
 Warning (10273): Verilog HDL warning at decoALU.sv(47): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/decoALU.sv Line: 47
+Warning (10273): Verilog HDL warning at decoALU.sv(48): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/decoALU.sv Line: 48
 Warning (10273): Verilog HDL warning at chipSet.sv(30): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/chipSet.sv Line: 30
 Warning (10273): Verilog HDL warning at chipSet.sv(56): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/chipSet.sv Line: 56
 Warning (10273): Verilog HDL warning at mux3_1.sv(13): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/mux3_1.sv Line: 13
+Warning (10273): Verilog HDL warning at corrimiento_Circular.sv(20): extended using "x" or "z" File: D:/leahycarlos21/Documents/TEC/I SEM 2020/TallerDisenoLogico/ProyectoFinal/ProcesadorARMv4/corrimiento_Circular.sv Line: 20
